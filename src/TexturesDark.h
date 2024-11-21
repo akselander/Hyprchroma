@@ -12,10 +12,10 @@ inline static constexpr auto DARK_MODE_FUNC = [](const std::string colorVarName)
 
 	// Apply opacity changes to pixels similar to one color
 	// vec3 color_rgb = vec3(0,0,255); // Color to replace, in rgb format
-	float similarity = 0.1; // How many similar colors should be affected.
+	float similarity = 0.0; // How many similar colors should be affected.
 
 	float amount = 1.4; // How much similar colors should be changed.
-	float target_opacity = 0.83;
+	float target_opacity = 0.0;
 	// Change any of the above values to get the result you want
 
 	// Set values to a 0 - 1 range
